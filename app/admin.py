@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from app.models import Portfolio,Service
+from app.models import Projects
 
-admin.site.register(Portfolio)
-admin.site.register(Service)
+admin.site.register(Projects)
+# admin.site.register(Service)/

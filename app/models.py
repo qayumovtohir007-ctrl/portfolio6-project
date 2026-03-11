@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class Portfolio(models.Model):
+class Projects(models.Model):
     image = models.ImageField()
     title = models.CharField()
     link = models.CharField()
@@ -23,9 +23,9 @@ class Contact(models.Model):
 
 
 
-class Service(models.Model):
-    title = models.CharField()
-    text = models.CharField()
-
-    def __str__(self):
-        return self.title
+# class Service(models.Model):
+#     title = models.CharField()
+#     text = models.CharField()
+#
+#     def __str__(self):
+#         return self.title
